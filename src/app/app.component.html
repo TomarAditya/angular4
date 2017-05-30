@@ -1,3 +1,130 @@
-<h1>
-  {{title}}
-</h1>
+<!-- Toolbar Start -->
+<div fxlayout="row" fxlayout.xs="column" >
+<md-toolbar color="primary">
+
+    <div fxFlex="10%"><img src="https://mockingbot.in/uploads/images/22/227204/raw_1493831176.png"></div>
+    <button md-button [mdMenuTriggerFor]="appMenu"><md-icon>menu</md-icon> Menu</button>
+     <div fxFlexOffset="80%">
+    <button md-icon-button ><md-icon>close</md-icon></button>
+  </div>
+</md-toolbar>
+<md-menu #appMenu="mdMenu">
+  <button md-menu-item> Settings </button>
+  <button md-menu-item> Help </button>
+</md-menu>
+</div>
+<!-- Toolbar Ends -->
+
+<div class="gap"></div>
+
+<div fxlayot="row" fxLayoutAlign="center" >
+  <p class="pHeading"> Choose from below option to Schedule a new Deployment</p>
+</div>
+
+<!-- Buttons -->
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="1%">
+ <button color="primary" md-raised-button>New Deployment</button>
+ <button color="primary" md-raised-button>Scheduled Deployment</button>
+</div>
+
+<div class="gap"></div>
+
+<!-- Cards Start -->
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="7%">
+
+<!-- Card-1 -->
+<div fxFlex="13%" fxLayout="column">
+  <md-card class="example-card">
+  <div fxFlexOffset="80%">
+    <button md-icon-button [mdMenuTriggerFor]="appMenu"><md-icon>settings</md-icon></button>
+    <md-menu #appMenu="mdMenu">
+      <button md-menu-item> Option - 1 </button>
+      <button md-menu-item> Option - 2 </button>
+    </md-menu>
+  </div>
+  <img md-card-image src="https://mockingbot.in/uploads/images/22/227136/raw_1493820812.png">
+  <p>Link and  embed code for direct sharing</p>
+  </md-card>
+</div>
+
+<!-- Card-2 -->
+<div fxFlex="13%" fxLayout="column">
+  <md-card class="example-card">
+  <div fxFlexOffset="80%">
+    <button md-mini-fab [mdMenuTriggerFor]="appMenu"><md-icon>settings</md-icon></button>
+    <md-menu #appMenu="mdMenu">
+      <button md-menu-item> Option - 1 </button>
+      <button md-menu-item> Option - 2 </button>
+    </md-menu>
+  </div>
+  <img md-card-image src="https://mockingbot.in/uploads/images/22/227136/raw_1493820812.png">
+  <p>Link and  embed code for direct sharing</p>
+  </md-card>
+</div>
+
+<!-- Card-3 -->
+<div fxFlex="13%" fxLayout="column">
+  <md-card class="example-card">
+  <div fxFlexOffset="80%">
+    <button md-mini-fab [mdMenuTriggerFor]="appMenu"><md-icon>settings</md-icon></button>
+    <md-menu #appMenu="mdMenu">
+      <button md-menu-item> Option - 1 </button>
+      <button md-menu-item> Option - 2 </button>
+    </md-menu>
+  </div>
+  <img md-card-image src="https://mockingbot.in/uploads/images/22/227136/raw_1493820812.png">
+  <p>Link and  embed code for direct sharing</p>
+  </md-card>
+</div>
+
+<!-- Card-4 -->
+<div fxFlex="13%" fxLayout="column">
+  <md-card class="example-card">
+  <div fxFlexOffset="80%">
+    <button md-mini-fab [mdMenuTriggerFor]="appMenu"><md-icon>settings</md-icon></button>
+    <md-menu #appMenu="mdMenu">
+      <button md-menu-item> Option - 1 </button>
+      <button md-menu-item> Option - 2 </button>
+    </md-menu>
+  </div>
+  <img md-card-image src="https://mockingbot.in/uploads/images/22/227136/raw_1493820812.png">
+  <p>Link and  embed code for direct sharing</p>
+  </md-card>
+</div>
+
+</div>
+
+<!-- Cards End -->
+
+<!-- <div class="test" fxLayout="row" fxLayout.xs="column" fxFlexAlign="end" >
+  <div fxFlex="grow" fxFlexOffset="10%">1. One</div>
+  <div fxFlex="10%">2. Two</div>
+  <div fxFlex="10%">3. Three</div>
+  <div fxFlex="10%">4. Four</div>
+</div>
+
+<div class="gap"></div>
+<div fxLayout="row">
+  <md-card fxFlex fxFlexAlign="start">
+
+      <md-card-content>
+        <div fxLayout fxLayout.xs="column" fxLayoutWrap fxLayoutGap="25px">
+          <md-input-container fxFlex="calc(50%-25px)">
+            <input mdInput placeholder="Name">
+          </md-input-container>
+          <md-input-container fxFlex="calc(50%-25px)">
+            <input mdInput placeholder="Occupation">
+          </md-input-container>
+          <md-input-container fxFlex="calc(50%-25px)">
+            <input mdInput placeholder="Compnay">
+          </md-input-container>
+        </div>
+      </md-card-content>
+
+      <md-card-actions>
+        <button md-button>Anterior</button>
+        <button md-button>Proximo</button>
+      </md-card-actions>
+  </md-card>
+
+</div> -->
