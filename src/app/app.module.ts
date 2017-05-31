@@ -6,7 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule, MdCardModule, MdInputModule ,MdMenuModule, MdToolbarModule, MdIconModule } from '@angular/material';
+import { MdButtonModule, MdCardModule, MdInputModule , MdTabsModule, MdMenuModule, MdToolbarModule, MdIconModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 
@@ -26,6 +26,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
    MdIconModule,
    FlexLayoutModule,
    MdInputModule,
+   MdTabsModule
 
   ],
   providers: [],

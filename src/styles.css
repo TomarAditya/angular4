@@ -60,6 +60,25 @@ border-radius: 3px !important;
 letter-spacing: 1px !important;
 }
 
+.mat-tab-label {
+  font-size: 18px !important;
+font-family: 'Lato', sans-serif !important;
+line-height: 18px !important;
+padding: 10px 15px !important;
+height: 40px !important;
+/*background: #103752;*/
+color:black !important;
+border: none !important;
+border-radius: 3px !important;
+letter-spacing: 1px !important;
+text-align: center !important ;
+/*margin-left: 25% !important;*/
+}
+
+.TabMargin{
+
+}
+
 .mat-card-image {
     width: 100% !important;
     margin: 0px 0px 0px 0px !important;
