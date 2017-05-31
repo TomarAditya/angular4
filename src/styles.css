@@ -65,8 +65,12 @@ letter-spacing: 1px !important;
     margin: 0px 0px 0px 0px !important;
 }
 
-.mat-card{
+.mat-card {
   padding:20px !important;
+
+}
+.example-card{
+  min-height:250px !important;
 }
 
 .mat-toolbar.mat-primary{
