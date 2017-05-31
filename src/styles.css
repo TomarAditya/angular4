@@ -44,3 +44,32 @@ p {
 .gap{
   margin-top: 20px;
 }
+
+/*Material Css*/
+.mat-raised-button {
+  font-size: 16px !important;
+font-family: 'Lato', sans-serif !important;
+line-height: 18px !important;
+padding: 10px 15px !important;
+height: 40px !important;
+/*background: #103752;*/
+background : #353d45 !important;
+border: none !important;
+color: #ffffff !important;
+border-radius: 3px !important;
+letter-spacing: 1px !important;
+}
+
+.mat-card-image {
+    width: 100% !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.mat-card{
+  padding:20px !important;
+}
+
+.mat-toolbar.mat-primary{
+background : #353d45 !important;
+height:6vh !important;
+}
