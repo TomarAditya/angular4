@@ -9,10 +9,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MdButtonModule, MdCardModule, MdInputModule , MdTabsModule, MdMenuModule, MdToolbarModule, MdIconModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+import { CardComponent } from './view/card/view.card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
